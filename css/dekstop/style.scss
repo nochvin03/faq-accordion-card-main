@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+@import url("../css/logo/style.css") (max-width: 375px);
+.attribution {
+   font-size: 11px;
+   text-align: center;
+}
+.attribution a {
+   color: hsl(228, 45%, 44%);
+}
+* {
+   margin: 0;
+   padding: 0;
+   font-family: "Kumbh Sans", sans-serif;
+   font-weight: 400;
+}
+body {
+   height: 100vh;
+   background: linear-gradient(
+      to bottom left,
+      hsl(273, 75%, 66%) 50%,
+      hsl(240, 73%, 65%)
+   );
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+@media (max-width: 375px) {
+   body {
+      padding-top: 100px;
+   }
+   .questions {
+      background-color: white;
+      border-radius: 20px;
+      height: auto;
+      width: auto;
+      margin: 0 20px;
+      padding: 20px 25px;
+      box-shadow: 0 15px 50px black;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+   }
+}
